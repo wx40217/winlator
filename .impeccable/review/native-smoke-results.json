@@ -1,0 +1,13 @@
+{
+  "passed": [
+    "compact list rows use one column",
+    "layout survives process restart",
+    "search filters actual shortcut names",
+    "search and favorites survive process restart",
+    "empty search offers clear filters",
+    "folder survives process restart",
+    "back returns to library root"
+  ],
+  "fixture_only": true,
+  "real_game_launch_tested": false
+}

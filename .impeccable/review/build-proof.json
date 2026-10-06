@@ -1,0 +1,10 @@
+{
+  "apk_bytes": 158462280,
+  "apk_sha256": "2bab9a82f7c517eec15936dc7193846f8a390648faa5542412865cf0f11e5281",
+  "unit_tests": {
+    "tests": "5",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  }
+}
