@@ -1,0 +1,11 @@
+{
+  "passed": [
+    "synthetic recent metadata renders with large font",
+    "landscape shows navigation rail",
+    "same-name shortcuts include relative folder context",
+    "damaged shortcut does not block the library",
+    "damaged shortcut explains repair instead of launching"
+  ],
+  "recent_records_are_synthetic": true,
+  "real_game_launch_tested": false
+}
