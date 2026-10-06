@@ -1,0 +1,33 @@
+{
+  "application_id": "com.wxwinlat",
+  "app_label": "Winlator Fork",
+  "version_code": 34,
+  "version_name": "11.2-fork.1",
+  "apk_bytes": 157613181,
+  "apk_sha256": "28a30f252c2d798c0ca28f39a33d32009d6c2e00421c4161e1a1421f3a8492b6",
+  "unit_tests": [
+    {
+      "name": "com.winlator.core.RuntimePathRebaserTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.winlator.library.GameLibraryStoreTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    }
+  ],
+  "native_libraries_with_fork_paths": [
+    "lib/arm64-v8a/libvortekrenderer.so",
+    "lib/arm64-v8a/libwinlator.so"
+  ],
+  "original_private_paths_in_packaged_native_libraries": false,
+  "signing": "local Android Debug",
+  "real_game_launch_tested": false,
+  "certificate_sha256": "003073d8fd350baf4612fbe58ddb93390490212e7a90cb1db187b2fc1ab4a070",
+  "delivery_apk": ".impeccable/review/Winlator-Fork-11.2-fork.1-debug.apk"
+}

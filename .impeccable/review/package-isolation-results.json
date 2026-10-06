@@ -1,0 +1,25 @@
+{
+  "application_id": "com.wxwinlat",
+  "original_package": "com.winlator",
+  "original_package_is_previous_ui_debug_build": true,
+  "uids": {
+    "com.winlator": "10166",
+    "com.wxwinlat": "10167"
+  },
+  "passed": [
+    "fork installs alongside original package",
+    "distinct Android UIDs",
+    "launcher activity opens under fork identity",
+    "fork starts with separate empty library",
+    "FileProvider authority uses fork package",
+    "original private preferences unchanged after fork startup",
+    "fork cannot read original private preferences",
+    "fork RootFS installs successfully",
+    "extracted RootFS has no original /data/data package prefix",
+    "fork APK update preserves its private data",
+    "both package activities open after fork update"
+  ],
+  "rootfs_version": "23",
+  "real_game_launch_tested": false,
+  "device": "dedicated API 30 ARM64 emulator"
+}
